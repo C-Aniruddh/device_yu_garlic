@@ -227,6 +227,7 @@ ifeq ($(WITH_TWRP),true)
 endif
 
 # Wi-Fi
+TARGET_WLAN_VARIANT := caf
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
